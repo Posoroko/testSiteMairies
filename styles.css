@@ -6,34 +6,44 @@ body{
     width: 100vw;
     min-height: 200vh;
 }
-
-li{
-    list-style: none;
-    padding: 0 20px;
-}
-nav > ul > li > p {
-    font-size: 26px;
-    line-height: 26px;
-    color: #0081d4;
-}
-nav > ul > li > p > span{
-    font-weight: 600;
-    color: black;
-}
-
-nav{
-    padding: 10px;
+.topBar{
+    padding: 20px max(10px, 2vw);
     position:fixed;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.424);
     width: 100%;
     z-index: 1;
 }
-
 .logo{
-    height: 70px;
+    height: max(50px, 5vw);
 }
 .logo > img{
     height: 100%;
+}
+.tabBox{
+    margin: 0 max(20px, 5vw);
+}
+li{
+    list-style: none;
+    padding: 0 max(5px, 2vw);
+}
+.topBar > ul > li > p {
+    font-size: max(12px, 1.4vw);
+    line-height: max(12px, 1.4vw);
+    color: #0081d4;
+}
+.topBar > ul > li > p > span{
+    font-weight: 800;
+    color: black;
+}
+
+
+
+
+
+.telNum{
+    font-size: max(12px, 1.5vw);
+    font-weight: 700;
 }
 .topImgBox{
     background-image: url("mairie.jpg");
@@ -44,6 +54,7 @@ nav{
    height: 100%;
    width: 100%;
    font-size: 50px;
+   font-weight: 900;
    padding: 100px;
    display: flex;
    flex-direction: column-reverse;
