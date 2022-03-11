@@ -128,3 +128,10 @@ a{
 .selectText{
     user-select: text;
 }
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}

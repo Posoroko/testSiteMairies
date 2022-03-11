@@ -9,10 +9,11 @@ body{
 
 li{
     list-style: none;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 nav > ul > li > p {
-
+    font-size: 26px;
+    line-height: 26px;
     color: #0081d4;
 }
 nav > ul > li > p > span{
@@ -23,8 +24,9 @@ nav > ul > li > p > span{
 nav{
     padding: 10px;
     position:fixed;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
+    z-index: 1;
 }
 
 .logo{
@@ -32,4 +34,18 @@ nav{
 }
 .logo > img{
     height: 100%;
+}
+.topImgBox{
+    background-image: url("mairie.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.topImgTitle{
+   height: 100%;
+   width: 100%;
+   font-size: 50px;
+   padding: 100px;
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
 }
