@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* user-select: none; */
+}
+a{
+    color: var(--lightest);
+}
+
+.width100{
+    width: 100%;
+}
+.height100{
+    height: 100%;
+}
+.width100vw{
+    width: 100vw;
+}
+.minHeight100vh{
+    min-height: 100vh;
+}
+.height100vh{
+    height: 100vh;
+}
+.red{
+    border: 1px solid red;
+}
+.blue{
+    border: 3px solid blue;
+}
+.centered{
+    display: grid;
+    place-items: center;
+}
+
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+.spaceAround{
+    justify-content: space-around;
+}
+.alignCenter{
+    align-items: center;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.selfStart{
+    align-self: flex-start;
+}
+.selfEnd{
+    align-self: flex-end
+}
+.selfCenter{
+    align-self: center;
+}
+.inLine{
+    display: inline-block;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.selectNone{
+    user-select: none;
+}
+.autoLeftMargin{
+    margin-left: auto;
+}
+
+.font100{
+    font-weight: 100;
+}
+.font200{
+    font-weight: 200;
+}
+.font300{
+    font-weight: 300;
+}
+.font400{
+    font-weight: 400;
+}
+.centeredText{
+    text-align: center;
+}
+.over-scroll{
+    overflow: scroll;
+}
+.over-hidden{
+    overflow: hidden;
+}
+
+.lift{
+    box-shadow: 0 1px 3px var(--notlifted);
+    transition: all ease 600ms;
+}
+.lift:hover{
+    box-shadow: 0px 1px 5px var(--lifted);
+    opacity: 1;
+    background-color: var(--darkcolor1-lift);
+}
+
+.icon{
+    font-family: 'Material Icons';
+    font-size: 30px;
+    color: var(--darkest);
+    cursor: pointer;
+}
+.selectText{
+    user-select: text;
+}
